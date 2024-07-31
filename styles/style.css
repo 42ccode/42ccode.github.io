@@ -1,0 +1,55 @@
+/*元素选择器*/
+p,
+li{
+    color: red;
+    text-align: center;
+    width: 500px;
+    line-height: 2;
+    letter-spacing: 1px;
+    border: 1px solid black;
+}
+
+/*id选择器*/
+#divdiv {
+    color: blue
+}
+
+/*类选择器*/
+.my-class {
+    color: orange;
+}
+
+/*伪装类选择器*/
+a:hover {
+    color: pink;
+}
+
+/*属性选择器*/
+img[src] {
+    width: 500px;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #00539f;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 3px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
